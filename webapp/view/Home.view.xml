@@ -1,0 +1,11 @@
+<mvc:View
+controllerName="sap.ui.demo.nav.controller.Home" 
+xmlns:mvc="sap.ui.core.mvc"
+xmlns="sap.m">
+	<Page text="{i18n>homePageTitle}" class="sapUiResponsiveContentPadding">
+		<content>
+			<Button text="{i18n>iWantToNavigate}" class="sapUiTinyMarginEnd"></Button>
+		</content>
+	</Page>
+	
+</mvc:View>
